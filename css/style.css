@@ -1,0 +1,78 @@
+body{
+    background-color: rgba(196, 142, 42, 0.425);
+    text-align: center;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: black;
+}
+/*folder is class to show the picture "secret"*/
+.folder{
+    background-image: url("/css/secret.svg");
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+}
+/*The question mark will pop up if you hover on it*/
+.question:hover{
+    background-image: url("/css/questionbubble.svg");
+    background-size: contain;
+    cursor: pointer;
+}
+/*Different smileys*/
+.pink1:active{
+    background-image: url("/css/001-sad.svg");
+    cursor: none;
+}
+
+.pink2:active{
+    background-image: url("/css/002-happy.svg");
+    cursor: none;
+}
+
+.pink3:active{
+    background-image: url("/css/003-ninja.svg");
+    cursor: none;
+}
+
+.pink4:active{
+    background-image: url("/css/004-confused.svg");
+    cursor: none;
+}
+
+.pink5:active{
+    background-image: url("/css/005-confused-1.svg");
+    cursor: none;
+}
+
+.pink6:active{
+    background-image: url("/css/006-nerd.svg");
+    cursor: none;
+}
+
+.pink7:active{
+    background-image: url("/css/007-suspicious.svg");
+    cursor: none;
+}
+
+.pink8:active{
+    background-image: url("/css/008-tongue-out.svg");
+    cursor: none;
+}
+
+.pink9:active{
+    background-image: url("/css/009-emoticons.svg");
+    cursor: none;
+}
+
+.outerbox{
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.innerbox{
+    display: inline-block;
+    margin: 20px;
+}
